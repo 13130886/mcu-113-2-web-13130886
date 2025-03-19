@@ -30,6 +30,14 @@ ul > li {
   text-align: center;
 }
 
+a,
+a:active,
+a:hover,
+a:focus {
+  color: black;
+  text-decoration: none;
+}
+
 .card {
   border-style: solid;
   border-color: #999;
@@ -58,6 +66,10 @@ td {
 
 tr > td {
   padding: 8px;
+}
+
+tr:hover {
+  background-color: yellow;
 }
 
 td.id {
