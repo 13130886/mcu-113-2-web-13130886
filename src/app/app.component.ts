@@ -9,6 +9,7 @@ import { ProductCardComponent } from './product-card/product-card.component';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
+  id!: number;
   productName = '書籍A';
   author = '作者甲、作者乙、作者丙';
   company = '博碩文化';
