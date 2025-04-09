@@ -1,9 +1,9 @@
 <img [src]="photoUrl" />
 <div class="content">
-  <strong [class.hidden]="!isShow">{{ id }}. {{productName}}</strong>
-  <span>2024-04-24</span>
+  <strong [class.hidden]="!isShow">{{ id }}. {{ productName }}</strong>
+  <span>{{createDate | date: 'yyyy-MM-dd'}}</span>
 </div>
-<div>{{author}}</div>
+<div>{{ author }}</div>
 <div class="company">
   <span>{{ company }}</span>
   <span>$10,000</span>
