@@ -10,5 +10,6 @@
   [price]="product.price"
 ></app-product-card>
 } @empty {
-<div class="date-empty">無資料</div>
+<div class="date-empty">無產品資料</div>
 }
+<app-pagination [totalCount]="products.length" [pageIndex]="pageIndex" pageSize="2"></app-pagination>
